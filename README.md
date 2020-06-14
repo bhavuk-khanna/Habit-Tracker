@@ -1,4 +1,4 @@
-How the Project works: 
+# How the Project works: 
 
 The Project has two view:
 	1. Home view: Displays all the habits of a user and provide option to add and delete habits
@@ -28,10 +28,11 @@ Starting the Project:
 2. Open folder in VS code
 3. Open terminal and make the project folder as your current directory
 4. Input following commands:
+	```
 	npm install express
 	npm install ejs
 	npm install mongoose
-
+	```
 5. To start the server, use command: npm start
 6. Go to https://localhost/8000 on your browser to use the application
 7. Have Fun!! 
