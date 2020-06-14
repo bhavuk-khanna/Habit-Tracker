@@ -8,6 +8,7 @@ router.get('/',homeController.home);
 
 
 router.post('/add-habit',homeController.addHabit);
+router.get('/delete/:id',homeController.deleteHabit);
 router.use("/7-days",require("./7days"));
 
 module.exports = router;

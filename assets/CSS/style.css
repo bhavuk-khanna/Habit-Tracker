@@ -11,3 +11,7 @@ form{
     margin: 0 auto;
     width: 300px;
 }
+
+.del-btn{
+    margin-top: 10px;
+}

@@ -39,7 +39,7 @@
                             <%=i.name%>
                             <footer class="blockquote-footer">Completed: <cite title="Source Title"><%=i.completed%>/<%=i.days.length%></cite></footer>
                             <footer class="blockquote-footer">Longest Streak: <cite title="Source Title"><%= i.streak%></cite></footer>
-                            
+                            <a href="/delete/<%=i.id%>" class="btn btn-danger btn-sm del-btn" role="button" aria-pressed="true">Delete</a>
                         </li>
                     <%}%>
                   

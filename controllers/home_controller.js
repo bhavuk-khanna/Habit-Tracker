@@ -37,6 +37,17 @@ module.exports.addHabit = function(req,res){
 }
 
 
+module.exports.deleteHabit = function(req,res){  
+    
+    Habit.findByIdAndDelete(req.params.id,function(err,contacts){
+        if(err){
+            console.log('Error in deleting object from  db');
+             return;
+
+        }
+    });
+    return res.redirect('back');
+}
 
 
 
