@@ -46,7 +46,7 @@ module.exports.deleteHabit = function(req,res){
 
         }
     });
-    return res.redirect('back');
+    res.redirect('/');
 }
 
 

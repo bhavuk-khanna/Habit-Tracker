@@ -49,7 +49,8 @@ module.exports.update = async function(req,res){
             }
             
         } 
-        
+        if(curr_streak>streak)
+                streak = curr_streak;
         await Habit.findByIdAndUpdate(req.params.id, {completed: complete, streak: streak});
         return res.redirect('back');
         
